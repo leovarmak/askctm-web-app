@@ -1,0 +1,66 @@
+[14-Sep-2018 10:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:77
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(21): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 77
+[14-Sep-2018 10:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:78
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(23): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 78
+[14-Sep-2018 10:57:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:78
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(23): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 78
+[14-Sep-2018 10:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:78
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(23): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 78
+[14-Sep-2018 10:58:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:75
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(24): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 75
+[14-Sep-2018 10:58:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:75
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(24): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 75
+[14-Sep-2018 10:59:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:78
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(27): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 78
+[14-Sep-2018 11:00:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:75
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(24): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 75
+[14-Sep-2018 11:00:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/index.php:75
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(24): table_gen('1st Year - 1st ...', '1_1', NULL)
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 75
+[14-Sep-2018 13:32:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/functions.php:28
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(30): table_gen('1st Year - 1st ...', '1_1', Object(PDO), '17B45A0502')
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/functions.php on line 28
+[14-Sep-2018 13:35:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/saxnacum/public_html/auto/functions.php on line 28
+[14-Sep-2018 13:38:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/saxnacum/public_html/auto/functions.php:28
+Stack trace:
+#0 /home/saxnacum/public_html/auto/index.php(30): table_gen('1st Year - 1st ...', '1_1', '17B45A0502')
+#1 {main}
+  thrown in /home/saxnacum/public_html/auto/functions.php on line 28
+[14-Sep-2018 13:52:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validation() in /home/saxnacum/public_html/auto/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/saxnacum/public_html/auto/index.php on line 24
+[14-Sep-2018 13:54:03 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56
+[14-Sep-2018 13:59:13 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56
+[14-Sep-2018 13:59:18 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56
+[14-Sep-2018 13:59:27 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56
+[15-Sep-2018 00:28:08 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56
+[15-Sep-2018 00:28:39 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/saxnacum/public_html/auto/functions.php on line 56

@@ -1,0 +1,7 @@
+@font-face { 
+font-family: prn;
+src: url("proxima_nova.ttf"); 
+}
+*{
+font-family: 'prn' !important;
+}

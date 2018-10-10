@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CSE : faculties info -->
+<faculties>
+<faculty>
+<name> CH. Usha</name>
+<image> usha.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Head of the Department </position>
+<profile>cse-profiles/usha.jpg</profile>
+</faculty>
+<faculty>
+<name> M. Anil Kumar </name>
+<image> anil-kumar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile>cse-profiles/anilkumar.jpg</profile>
+</faculty>
+<faculty>
+<name> A. Kamala Priya </name>
+<image> priya.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile>cse-profiles/usha.jpg</profile>
+</faculty>
+<faculty>
+<name> M.S.P DurgaRao </name>
+<image> durgarao.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/durgarao.jpg </profile>
+</faculty>
+<faculty>
+ <name> P. Amulya </name>
+<image> amulya.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/amulya.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Haritha </name>
+<image> haritha.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/haritha.jpg </profile>
+</faculty>
+<faculty>
+<name> S. Vara Kishore </name>
+<image> kishore.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/kishore.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Priyanka </name>
+<image> priyanka.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/priyanka.jpg </profile>
+</faculty>
+<faculty>
+<name> T.Ramakrishna </name>
+<image> ramakrishna.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/ramakrishna.jpg </profile>
+</faculty>
+<faculty>
+<name> CH.S.K.V.R.Naidu </name>
+<image> naidu.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> cse-profiles/naidu.jpg </profile>
+</faculty>
+</faculties>

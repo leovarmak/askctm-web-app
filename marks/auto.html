@@ -1,0 +1,176 @@
+<script src="jquery.min.js"></script>
+
+<style>
+div {
+	width:50%;
+	display:inline-block;
+	float:left;
+}
+p {
+	padding:5px;
+}
+
+input[type="text"]{
+border:none;
+font-size: 18px;
+padding:8px 10px;
+background-color:#f2f2f2;
+color:#000;
+margin:5px 0px;
+border-radius:4px;
+}
+
+input[type="text"]:focus{
+outline:none;
+box-shadow:inset 0px 0px 6px rgba(0,0,0,.3);
+}
+
+
+</style>
+
+
+<form id="mobile">
+
+
+<table>
+<tr>
+<td>
+<p><input type="text" id="1" placeholder="Brand" /> </p>
+</td>
+<td>
+<p><input type="text" id="2" placeholder="Model" /> </p>
+</td>
+<td>
+<p><input type="text" id="3" placeholder="Screen Size" /> </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p><input type="text" id="4" placeholder="RAM" /> </p>
+</td>
+<td>
+<p><input type="text" id="5" placeholder="ROM" /> </p>
+</td>
+<td>
+<p><input type="text" id="6" placeholder="Expandable" /> </p>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<p><input type="text" id="7" placeholder="GHz" /> </p>
+</td>
+<td>
+<p><input type="text" id="8" placeholder="Processor" /> </p>
+</td>
+<td>
+<p><input type="text" id="9" placeholder="Core" /> </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p><input type="text" id="10" placeholder="Android OS" /> </p>
+</td>
+<td>
+<p><input type="text" id="11" placeholder="Battery" /> </p>
+</td>
+<td>
+<p><input type="text" id="12" placeholder="Rear Camera" /> </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p><input type="text" id="13" placeholder="Front Camera" /> </p>
+</td>
+<td>
+<p><input type="text" id="14" placeholder="Security" /> </p>
+</td>
+<td>
+<p><input type="text" id="15" placeholder="Colors" /> </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p><input type="text" id="16" placeholder="Website" /> </p>
+</td>
+<td>
+<p><input type="text" id="17" placeholder="Initial Price" /> </p>
+</td>
+<td>
+<p><input type="text" id="18" placeholder="Exchange" /> </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p><input type="text" id="19" placeholder="Extra Percent" /> </p>
+</td>
+<td>
+<p><input type="text" id="20" placeholder="Final Price" /> </p>
+</td>
+</tr>
+
+</table>
+<input style="padding:10px 15px;font-size:16px;font-weight:bolder;margin:10px;" type="button" id="gen"  value="Generate Now" placeholder="" />
+</form>
+
+
+
+
+<p style="font-weight:lighter;">
+<b>Tags:</b> Qualcomm Snapdragon, Mediatek , Fingerprint Sensor , FaceID , Flipkart , Amazon , Paytm , Octa , Deca, 0MP+0MP Dual , 
+</p>
+
+
+<br/><br/>
+
+
+<textarea id="output" style="width:100%;height:500px;font-size:16px;line-height:20px;padding:10px;background-color:#fafafa;color:#000;"></textarea>
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+</script>
+
+
+<script>
+function x(id) {
+return $("#"+id).val();
+} 
+$(document).ready(function(){
+	
+$("#gen").click(function(){
+var info="Hello friends! If you are looking for a new smartphone with good specifications at low cost. Then without any waiting, Let's take a look on below info to know about this new smartphone and its specifications & price details. \n\nYes! One of the best smartphone brands "+x(1)+" has launched a new smartphone "+x(2)+" with good build quality with amazing features. This is one of the best smartphone with good specifications at low price tag, when compared to other smartphones in market. \n\nSpecifications:\nThis Smartphone has a "+x(3)+"-inch Full HD+ display screen and Aluminium body. It has "+x(4)+"GB of RAM and "+x(5)+"GB of ROM expandable upto "+x(6)+"GB, "+x(7)+"GHz of 64-bit "+x(8)+" "+x(9)+"-core processor with Android v"+x(10)+" operating system, "+x(12)+" Dual rear camera with LED flash light and "+x(13)+" front camera with Selfie flash light, and backed by a "+x(11)+"mAh non-removable battery.\n\nThe connectivity includes Dual SIM, 4G, VoLTE, Wi-Fi, Bluetooth , GPS and a Micro-USB charging port, etc. It has all major sensors like accelerometer, proximity, gravity, ambient light, etc. This device can also support OTG feature. You can unlock this device with "+x(14)+". This smartphone is available in "+x(15)+" attractive colors options.\n\nPrice:\nThis smartphone launching at price Rs."+x(17)+". But if you want to buy this on "+x(16)+", then you get upto Rs."+x(18)+" discount with exchange offer and also get "+x(19)+" exclusive discount by "+x(16)+". So, with the help of these offers you can buy the smartphone just at Rs."+x(20)+" price.";
+$("#output").val(info);
+});
+	
+	
+
+$("input[type=text]").keypress(function(event){
+	
+	var keycode = (event.keyCode ? event.keyCode : event.which);
+	if(keycode == '13'){
+var index = $(this).attr("id"); index++;
+$("#"+index).focus();
+	}
+});
+
+});
+
+</script>

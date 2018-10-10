@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MECH : faculties info -->
+<faculties>
+<faculty>
+<name> N. Rajendra </name>
+<image> rajendra.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Head of the Department </position>
+<profile> mech-profiles/rajendra.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Raviteja </name>
+<image> raviteja.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/raviteja.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Rajasekhar </name>
+<image> rajasekhar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/rajasekhar.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Hari singh</name>
+<image> harisingh.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/harisingh.jpg</profile>
+</faculty>
+<faculty>
+<name> G. Anusha </name>
+<image> anusha.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/anusha.jpg </profile>
+</faculty>
+<faculty>
+<name> S. Swarna Bala</name>
+<image> swarnabala.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/swarnabala.jpg </profile>
+</faculty>
+<faculty>
+<name> A. Lakshmi Narayana</name>
+<image> narayana.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/narayana.jpg </profile>
+</faculty>
+<faculty>
+<name> P.T.V.Satya Vallabh</name>
+<image> vallabh.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> mech-profiles/vallabh.jpg </profile>
+</faculty>
+</faculties>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BSH : faculties info -->
+<faculties>
+<faculty>
+<name> G. Ramesh </name>
+<image> ramesh.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Head of the Department </position>
+<profile> bsh-profiles/ramesh.jpg </profile>
+</faculty>
+<faculty>
+<name> P. Demudu Babu </name>
+<image> demudu-babu.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> bsh-profiles/demudubabu.jpg </profile>
+</faculty>
+<faculty>
+<name> B. Vamsi Kiran </name>
+<image> vamsi-kiran.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> bsh-profiles/vamsi.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Karunakar </name>
+<image> karunakar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> bsh-profiles/karunakar.jpg </profile>
+</faculty>
+<faculty>
+<name> Rnuka  </name>
+<image> lakshmi-sravani.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> notfound.jpg </profile>
+</faculty>
+<faculty>
+<name> M.J.L Poornima </name>
+<image> poornima.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> bsh-profiles/poornima.jpg </profile>
+</faculty>
+</faculties>

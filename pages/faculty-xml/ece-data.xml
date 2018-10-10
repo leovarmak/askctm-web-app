@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ECE : faculties info -->
+<faculties>
+<faculty>
+<name> Y. Sravan Kumar </name>
+<image> sravan-kumar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Head of the Department </position>
+<profile> ece-profiles/sravankumar.jpg </profile>
+</faculty>
+<faculty>
+<name> Y. Rama Krishna </name>
+<image> rama-krishna.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/ramakrishna.jpg </profile>
+</faculty>
+<faculty>
+<name> T. Raja </name>
+<image> raja.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/raja.jpg </profile>
+</faculty>
+<faculty>
+<name> B.Satish Kumar </name>
+<image> satish-kumar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/satishkumar.jpg </profile>
+</faculty>
+<faculty>
+<name> P. Bharath Kumar </name>
+<image> bharath.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/bharath.jpg </profile>
+</faculty>
+<faculty>
+<name> V. Satish Kumar </name>
+<image> satish.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/satish.jpg </profile>
+</faculty>
+<faculty>
+<name> S. Sultan </name>
+<image> sultan.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/sultan.jpg </profile>
+</faculty>
+<faculty>
+<name> N. Nagamani </name>
+<image> nagamani.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/nagamani.jpg </profile>
+</faculty>
+<faculty>
+<name> M. Rajitha </name>
+<image> rajitha.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> ece-profiles/rajitha.jpg </profile>
+</faculty>
+</faculties>

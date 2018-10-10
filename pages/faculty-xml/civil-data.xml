@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CIVIL : faculties info -->
+<faculties>
+<faculty>
+<name> Y. Hemanth Kumar </name>
+<image> hemanth.jpg</image>
+<qualification> M. Tech </qualification>
+<position> Head of the Department </position>
+<profile> civil-profiles/hemanth.jpg</profile>
+</faculty>
+<faculty>
+<name> G. Naresh Kumar </name>
+<image> naresh-kumar.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/nareshkumar.jpg </profile>
+</faculty>
+<faculty>
+<name> P. Rakesh </name>
+<image> rakesh.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/rakesh.jpg </profile>
+</faculty>
+<faculty>
+<name> S. Pavan Ayyappa </name>
+<image> pavan-ayyappa.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/ayyappa.jpg </profile>
+</faculty>
+<faculty>
+<name> p. Ganapathi Naidu </name>
+<image> ganapathi-naidu.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/ganapathi.jpg </profile>
+</faculty>
+<faculty>
+<name> K. Santhoshi </name>
+<image> santhoshi.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/santhoshi.jpg </profile>
+</faculty>
+<faculty>
+<name> L. Himaja </name>
+<image> maja.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/maja.jpg </profile>
+</faculty>
+<faculty>
+<name> b. Navya </name>
+<image> navya.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/navya.jpg </profile>
+</faculty>
+<faculty>
+<name> G.Shalini </name>
+<image> shalini.jpg </image>
+<qualification> M. Tech </qualification>
+<position> Assistant Professor </position>
+<profile> civil-profiles/shalini.jpg </profile>
+</faculty>
+</faculties>
