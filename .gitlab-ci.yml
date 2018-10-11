@@ -1,31 +1,8 @@
 image: alpine
 
 stages:
-  - build
-  - test
-  #- deploy
   - live
 
-build_dependencies:
- stage: build
- script:
-   - echo "Building dependencies"
-
-test_job:
- stage: test
- script:
-   - echo "sanity_check>/dev/null"
-
-# deploy_app:
-#   stage: deploy
-#   environment:
-#     name: Staging
-#     url: http://192.168.1.75:8080/hostsapp
-#   script:
-#     - apk add openssh sshpass openrc
-#     - sshpass -e ssh -o stricthostkeychecking=no hyper@192.168.1.75 "cd /home/hyper/Desktop/hosts-generator/ && git pull && docker cp hostsapp Test:/usr/share/nginx/html/"
-#   only:
-#     - master
 
 deploy_live:
   stage: live
@@ -34,13 +11,10 @@ deploy_live:
     url: http://139.59.14.215
   script:
     - apk add openssh sshpass openrc zip
-    # - echo -e "$SSH_KEY_DEMO" >> SSHKEY.pem
-    # - chmod 600 SSHKEY.pem
     - zip -r ASKCTM$(date "+%b_%d_%Y_%H_%M_%S").zip .
     - sshpass -e scp -o stricthostkeychecking=no *.zip root@139.59.14.215:/var/www/html/.
     - sshpass -e ssh -o stricthostkeychecking=no root@139.59.14.215 "cd /var/www/html/ && unzip -o *.zip && chmod -R 755 . && mv *.zip OLD/"
     - rm *.zip
-  # when: manual
+
   only:
     - master
-    # - docker run -d -p 8083:80 -v /hostsapp:/usr/share/nginx/html/hostsapp --name DeployStg nginx:latest
