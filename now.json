@@ -2,7 +2,7 @@
     "version": 2,
     "name": "php-7",
     "builds": [
-        { "src": "*.php", "use": "@now/php", "config": { "maxLambdaSize": "120mb" }}
+        { "src": "*.php", "use": "@now/php", "config": { "maxLambdaSize": "100mb" }}
         
     ]
 }
